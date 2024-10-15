@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <main>
       <div className="h-[40rem] flex items-center justify-center w-full">
-        <CardStack items={CARDS} />
+        {/* <CardStack items={CARDS} /> */}
       </div>
       <div className="h-[100vh] bg-black"></div>
     </main>
