@@ -6,11 +6,21 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "framer-motion";
-import { cn } from "@/app/lib/utils";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 
-export const FloatingNav = ({ navItems, className }) => {
+export const FloatingNav = ({
+  navItems,
+  className,
+}: {
+  navItems?: {
+    name: string;
+    link: string;
+    icon?: JSX.Element;
+  }[];
+  className?: string;
+}) => {
   const { scrollYProgress } = useScroll();
 
   const [visible, setVisible] = useState(true);
@@ -18,17 +28,14 @@ export const FloatingNav = ({ navItems, className }) => {
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     // Check if current is not undefined and is a number
     if (typeof current === "number") {
-      let direction = current - scrollYProgress.getPrevious();
+      let direction = current! - scrollYProgress.getPrevious()!;
 
-      if (scrollYProgress.get() < 0) {
-        setVisible(false);
-      } else {
+    
         if (direction < 0) {
           setVisible(true);
         } else {
           setVisible(false);
         }
-      }
     }
   });
 
@@ -57,6 +64,7 @@ export const FloatingNav = ({ navItems, className }) => {
               src="https://itshaala.com/wp-content/uploads/2024/06/512x512-logo-size-tagline-05-05-e1724735912757.png"
               height={100}
               width={198}
+              alt="It Shaala logo"
             ></Image>
           </a>
 
