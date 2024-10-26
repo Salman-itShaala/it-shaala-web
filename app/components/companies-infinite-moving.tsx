@@ -5,6 +5,7 @@ import Lottie from 'lottie-web'
 import animation from "@/app/lottie-animaitons/lottie-animation-1.json"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faArrowRightArrowLeft, faLaptopCode, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import TextWithIcons from './icon-text';
 
 const CompaniesMovingCards = () => {
     const animationContainer = useRef(null);
@@ -90,19 +91,6 @@ const CompaniesMovingCards = () => {
 }
 
 export default CompaniesMovingCards
-
-const TextWithIcons = ({ text }: { text: string }) => {
-    return (
-        <div className='flex items-center gap-4 mt-4'>
-            <div className="bg-blue-400 rounded-[50%] h-8 w-8 flex justify-center items-center p-4">
-                <FontAwesomeIcon icon={faArrowRight} />
-            </div>
-            <p className='dark:text-slate-200 text-black'>
-                {text}
-            </p>
-        </div>
-    )
-};
 
 
 const imagesArray = [
