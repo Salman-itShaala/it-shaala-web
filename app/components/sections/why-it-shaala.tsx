@@ -4,7 +4,7 @@ import Card from '../card'
 
 const WhyItShaala = () => {
     return (
-        <div className="w-full dark:bg-black bg-white relative flex flex-col gap-8 py-2">
+        <div className="w-full dark:bg-black bg-white relative flex flex-col gap-8 py-2 sm:px-20">
             {/* <div className="bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-600 via-indigo-400 to-transparent h-full w-full absolute top-0 left-0 z-0"></div> */}
             <div className="flex flex-col gap-2 z-10">
                 <p className="text-center text-blue-600 font-black ">
@@ -21,7 +21,7 @@ const WhyItShaala = () => {
                     Enroll in our courses and we'll prepare you to be that talent industry is lookin for.
                 </p>
             </div>
-            <div className="flex items-center justify-center gap-3 z-10 flex-col sm:flex-row">
+            <div className="flex items-center justify-between gap-3 z-10 flex-col sm:flex-row">
                 <Card imgUrl="https://i0.wp.com/itshaala.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-21-at-11.14.50_1c5af0f6-scaled.jpg?resize=2048%2C1536&ssl=1" heading="Learn live in classes" subHeading="Solve real-life problems, learn how to hack it with the experts!" />
                 <Card imgUrl="https://i0.wp.com/itshaala.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-21-at-11.14.50_1c5af0f6-scaled.jpg?resize=2048%2C1536&ssl=1" heading="Secure a job in a dream company" subHeading="We'll help you get shortlisted by top recruiters, effortlessly!" />
                 <Card imgUrl="https://i0.wp.com/itshaala.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-21-at-11.14.50_1c5af0f6-scaled.jpg?resize=2048%2C1536&ssl=1" heading="Level up your resume" subHeading="Shines out your resume in a sea of candidates. Ace the interview!" />
@@ -37,8 +37,8 @@ const WhyItShaala = () => {
                 </a>
                 {/* <a href="">Contact us</a> */}
                 {/* <a href="">Explore more</a> */}
-
             </div>
+
         </div>
     )
 }

@@ -43,17 +43,17 @@ export const FloatingNav = ({
       <motion.div
         initial={{
           opacity: 1,
-          y: -100,
+          y: -50,
         }}
         animate={{
-          y: visible ? 0 : -100,
+          y: visible ? 0 : -50,
           opacity: visible ? 1 : 0,
         }}
         transition={{
           duration: 0.2,
         }}
         className={cn(
-          "fixed w-full top-6 inset-x-0 sm:px-20 z-[5000]",
+          "fixed w-full top-4 inset-x-0 sm:px-20 z-[5000]",
           className
         )}
       >

@@ -5,6 +5,7 @@ import javaIcon from "@/app/images/logo-java.png";
 import pythonIcon from "@/app/images/python-94.png";
 import githubIcon from "@/app/images/git-hub.png";
 
+
 const HeroSection = () => {
     const words = ["Training.", "Upskilling."]
 
@@ -13,6 +14,7 @@ const HeroSection = () => {
             {/* Radial gradient for the container to give a faded look */}
             {/* <div className="h-[64px] w-[64px] z-[99] -rotate-45 bg-transparent top-36 left-36  absolute animate-bounce">
                 <Image className="rotate-12 relative z-[99] bg-transparent drop-shadow-\[0_16px_24px_rgba\(247\2c 147\2c 20\2c 0\.35\)\]" src={javaIcon} height={64} width={64} alt="Java logo"></Image>
+                <FontAwesomeIcon icon={faCopy} color='#fff' />
             </div> */}
             {/* <div className="h-[64px] w-[64px] z-[99] -rotate-45 bg-transparent bottom-[-20px] left-[58%]  absolute animate-bounce">
           <Image className="rotate-12 relative z-[99] bg-transparent drop-shadow-\[0_16px_24px_rgba\(247\2c 147\2c 20\2c 0\.35\)\]" src={pythonIcon} height={64} width={64} alt="Java logo"></Image>
