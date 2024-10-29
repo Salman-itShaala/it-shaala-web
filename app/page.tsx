@@ -6,6 +6,7 @@ import HeroSection from "./components/sections/hero";
 import WhyItShaala from "./components/sections/why-it-shaala";
 import CompaniesMovingCards from "./components/companies-infinite-moving";
 import Courses from "./components/sections/courses";
+import Testimonials from "./components/sections/testimonials";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <WhyItShaala />
       <CompaniesMovingCards />
       <Courses />
+      <Testimonials />
     </>
   );
 }

@@ -11,7 +11,6 @@ const CourseCard = ({ courseTitle, instructor, courseIcon, courseHeading, course
     courseSubHeading: string,
     flexDirection: boolean
 }) => {
-    console.log(flexDirection)
     return (
         <div className={`w-full gap-10 flex py-16 ${flexDirection ? 'flex-row-reverse' : 'flex-row'}`}>
             {/* <div className="" ref={animationContainer}></div> */}
