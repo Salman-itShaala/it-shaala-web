@@ -43,9 +43,9 @@ const CompaniesMovingCards = () => {
                     speed="slow"
                 />
             </div>
-            <div className="w-full gap-10 sm:px-20 px-2 flex py-16">
+            <div className="w-full gap-10 sm:px-20 px-2 flex flex-col-reverse md:flex-row py-16">
                 {/* <div className="" ref={animationContainer}></div> */}
-                <div className="w-1/2 flex flex-col gap-4">
+                <div className="md:w-1/2 w-full flex flex-col gap-4">
                     <p className='text-blue-600 font-black '>
                         Upcoming free webinar
                     </p>
@@ -84,7 +84,7 @@ const CompaniesMovingCards = () => {
                     </div>
                 </div>
 
-                <div className="w-1/2 bg-white rounded-xl"></div>
+                <div className="md:w-1/2 w-full md:h-auto h-[30vh] bg-white rounded-xl"></div>
             </div>
         </div>
     )

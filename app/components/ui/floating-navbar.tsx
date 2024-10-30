@@ -9,6 +9,9 @@ import {
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faOptinMonster } from "@fortawesome/free-brands-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export const FloatingNav = ({
   navItems,
@@ -66,8 +69,10 @@ export const FloatingNav = ({
               alt="It Shaala logo"
             ></Image>
           </a>
-
-          <div>
+          <div className="block md:hidden">
+            <FontAwesomeIcon icon={faBars} className="dark:text-white text-black size-8 cursor-pointer" focusable />
+          </div>
+          <div className="hidden md:block">
             <nav className="dark:text-white">
               <ul className="flex list-none gap-4">
                 <li>

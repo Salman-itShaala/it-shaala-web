@@ -7,6 +7,8 @@ import WhyItShaala from "./components/sections/why-it-shaala";
 import CompaniesMovingCards from "./components/companies-infinite-moving";
 import Courses from "./components/sections/courses";
 import Testimonials from "./components/sections/testimonials";
+import WhyStudentsLoveItShaala from "./components/sections/why-students-love";
+import FAQ from "./components/sections/faq";
 
 
 export default function Home() {
@@ -17,6 +19,14 @@ export default function Home() {
       <CompaniesMovingCards />
       <Courses />
       <Testimonials />
+      <FAQ />
+      <WhyStudentsLoveItShaala />
     </>
   );
 }
+
+/*
+
+<!-- FAQ -->
+<!-- End FAQ -->
+*/

@@ -13,7 +13,7 @@ const Testimonials = () => {
                     Read What our students are saying.
                 </p>
             </div>
-            <div className='w-full bg-white dark:bg-black sm:px-20 px-2 py-16 flex gap-4 justify-center'>
+            <div className='w-full bg-white dark:bg-black sm:px-20 px-2 py-16 flex flex-col items-center md:items-start md:flex-row  gap-4 justify-center'>
 
                 <div className="flex flex-col gap-4 w-96">
                     {testimonils1.map((t, i) => {
@@ -25,7 +25,7 @@ const Testimonials = () => {
                         />
                     })}
                 </div>
-                <div className="flex flex-col gap-4 w-96">
+                <div className="md:flex hidden flex-col gap-4 w-96">
                     {testimonils2.map((t, i) => {
                         return <TestimonialCard
                             key={t.message}
@@ -35,7 +35,7 @@ const Testimonials = () => {
                         />
                     })}
                 </div>
-                <div className="flex flex-col gap-4 w-96">
+                <div className="md:flex hidden flex-col gap-4 w-96">
                     {testimonils3.map((t, i) => {
                         return <TestimonialCard
                             key={t.message}

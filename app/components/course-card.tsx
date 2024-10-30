@@ -12,9 +12,9 @@ const CourseCard = ({ courseTitle, instructor, courseIcon, courseHeading, course
     flexDirection: boolean
 }) => {
     return (
-        <div className={`w-full gap-10 flex py-16 ${flexDirection ? 'flex-row-reverse' : 'flex-row'}`}>
+        <div className={`w-full gap-10 flex py-16 ${flexDirection ? 'md:flex-row-reverse flex-col-reverse' : 'md:flex-row  flex-col-reverse'}`}>
             {/* <div className="" ref={animationContainer}></div> */}
-            <div className="w-1/2 flex flex-col gap-4">
+            <div className="md:w-1/2 w-full flex flex-col gap-4">
                 {/* <p className='text-blue-600 font-black '>
                     Upcoming free webinar
                 </p> */}
@@ -64,7 +64,7 @@ const CourseCard = ({ courseTitle, instructor, courseIcon, courseHeading, course
 
 
 
-            <div className="w-1/2 bg-white rounded-xl"></div>
+            <div className="md:w-1/2 w-full md:h-auto min-h-[30vh] bg-white rounded-xl"></div>
         </div>
     )
 }

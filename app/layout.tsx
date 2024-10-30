@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <FloatingNav />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
