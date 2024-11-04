@@ -3,7 +3,7 @@ import Card from "../card";
 
 const WhyItShaala = () => {
   return (
-    <div className="w-full dark:bg-black bg-white relative flex flex-col gap-8 py-2 sm:px-20 px-4">
+    <div className="w-full dark:bg-neutral-950 bg-white relative flex flex-col gap-8 py-2 sm:px-20 px-4">
       {/* <div className="bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-600 via-indigo-400 to-transparent h-full w-full absolute top-0 left-0 z-0"></div> */}
       <div className="flex flex-col gap-2 z-10">
         <p className="text-center text-blue-600 font-black ">

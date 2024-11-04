@@ -32,11 +32,11 @@ const CompaniesMovingCards = () => {
     // };
 
     return (
-        <div className="w-full bg-white dark:bg-black">
+        <div className="w-full bg-white dark:bg-neutral-950">
             <p className="text-center pt-20 pb-14 font-thin dark:text-slate-50 text-slate-700">
                 These companies are waiting for you! (150+ Companies)
             </p>
-            <div className="rounded-md flex flex-col antialiased bg-white dark:bg-black items-center justify-center relative overflow-hidden">
+            <div className="rounded-md flex flex-col antialiased bg-white dark:bg-neutral-950 items-center justify-center relative overflow-hidden">
                 <InfiniteMovingCards
                     items={imagesArray}
                     direction="left"

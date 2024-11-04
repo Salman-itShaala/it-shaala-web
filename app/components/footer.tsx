@@ -75,7 +75,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full dark:bg-black text-slate-50">
+    <footer className="w-full dark:bg-neutral-950 text-slate-50">
       <div className="w-full flex flex-col lg:flex-row justify-between md:rounded-t-[76px] rounded-t-[30px] bg-[#09061d] px-4 sm:px-20 py-10">
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8">
           {/* Logo and Contact Section */}

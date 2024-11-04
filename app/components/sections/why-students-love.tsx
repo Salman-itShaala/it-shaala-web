@@ -12,7 +12,7 @@ import {
 
 const WhyStudentsLoveItShaala = () => {
   return (
-    <div className="w-full dark:bg-black bg-white relative flex flex-col gap-8 py-10 sm:px-20">
+    <div className="w-full dark:bg-neutral-950 bg-white relative flex flex-col gap-8 py-10 sm:px-20">
       <div className="flex flex-col gap-2 z-10">
         <p className="text-blue-600 font-black ">
           Why Students love <span className="">IT Shaala</span>

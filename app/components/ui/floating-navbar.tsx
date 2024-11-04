@@ -57,7 +57,7 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({
           className
         )}
       >
-        <div className="flex border border-transparent dark:border-white/[0.2] rounded-full dark:bg-black bg-white shadow-lg px-8 py-2 items-center justify-between">
+        <div className="flex border border-transparent dark:border-white/[0.2] rounded-full dark:bg-neutral-950 bg-white shadow-lg px-8 py-2 items-center justify-between">
           <a href="/" aria-label="Home">
             <Image
               src="https://itshaala.com/wp-content/uploads/2024/06/512x512-logo-size-tagline-05-05-e1724735912757.png"
@@ -112,7 +112,7 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({
               <motion.nav
                 initial={{ y: -20 }}
                 animate={{ y: 0 }}
-                className="p-8 bg-white dark:bg-black rounded-lg shadow-md m-4"
+                className="p-8 bg-white dark:bg-neutral-950 rounded-lg shadow-md m-4"
                 onClick={(e) => e.stopPropagation()}
               >
                 <ul className="flex flex-col gap-4">

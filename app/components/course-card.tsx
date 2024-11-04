@@ -10,6 +10,7 @@ const CourseCard = ({
   courseHeading,
   courseSubHeading,
   flexDirection,
+  courseLInk
 }: {
   courseTitle: string;
   instructor: string;
@@ -17,6 +18,7 @@ const CourseCard = ({
   courseHeading: string;
   courseSubHeading: string;
   flexDirection: boolean;
+  courseLInk: string
 }) => {
   return (
     <div
@@ -66,7 +68,8 @@ const CourseCard = ({
             Download Broucher
           </a>
           <a
-            href="/courses"
+            href={`courses/${courseLInk}`}
+            target="_blank"
             className="text-center md:px-4 px-4 py-2 font-bold  rounded-full bg-gradient-to-b border-2 border-blue-600 hover:bg-none from-blue-400 to-blue-400 dark:to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition-colors duration-700"
           >
             Explore Course

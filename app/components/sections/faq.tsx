@@ -5,13 +5,13 @@ import React, { useState } from "react";
 const FAQ = () => {
   return (
     <>
-      <div className="w-full bg-white dark:bg-black sm:px-20 px-2 ">
+      <div className="w-full bg-white dark:bg-neutral-950 sm:px-20 px-2 ">
         <p className="text-blue-600 font-black pb-2">FAQ.</p>
         <p className="text-2xl font-black dark:text-slate-50 text-slate-950">
           Do you have any question?
         </p>
       </div>
-      <div className="bg-white dark:bg-black mx-auto flex items-center flex-col sm:px-20 px-2  gap-4 py-8">
+      <div className="bg-white dark:bg-neutral-950 mx-auto flex items-center flex-col sm:px-20 px-2  gap-4 py-8">
         {faqs.map((faq, idx) => {
           return <FaqCard key={faq.title} title={faq.title} content={faq.content} />
         })}
