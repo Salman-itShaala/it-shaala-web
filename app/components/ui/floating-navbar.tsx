@@ -80,11 +80,11 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({
           <nav className="hidden md:block">
             <ul className="flex list-none gap-4 dark:text-white">
               {navItems.map((item, index) => (
-                <li key={index}>
+                <li className="min-w-max" key={index}>
                   <a
                     href={item.link}
                     className={cn(
-                      "hover:text-blue-600",
+                      "hover:text-blue-600 min-w-max",
                       item.button
                         ? "bg-blue-800 px-4 py-2 rounded-2xl hover:bg-blue-600 text-white hover:text-white"
                         : ""

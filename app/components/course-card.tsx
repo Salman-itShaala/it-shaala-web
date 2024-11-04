@@ -20,11 +20,10 @@ const CourseCard = ({
 }) => {
   return (
     <div
-      className={`w-full gap-10 flex py-16 ${
-        flexDirection
-          ? "md:flex-row-reverse flex-col-reverse"
-          : "md:flex-row  flex-col-reverse"
-      }`}
+      className={`w-full gap-10 flex py-16 ${flexDirection
+        ? "md:flex-row-reverse flex-col-reverse"
+        : "md:flex-row  flex-col-reverse"
+        }`}
     >
       {/* <div className="" ref={animationContainer}></div> */}
       <div className="md:w-1/2 w-full flex flex-col gap-4">
@@ -62,13 +61,13 @@ const CourseCard = ({
         <div className="flex justify-center gap-10 mt-8">
           <a
             href="/courses"
-            className="text-center px-8 py-2 font-bold  rounded-full hover:bg-gradient-to-b hover:from-blue-400 hover:to-blue-600 border-2  border-blue-600 dark:from-blue-400 dark:to-blue-700 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-[2s]"
+            className="text-center md:px-4 px-4 py-2 font-bold  rounded-full hover:bg-gradient-to-b hover:from-blue-400 hover:to-blue-600 border-2  border-blue-600 dark:from-blue-400 dark:to-blue-700 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-[2s]"
           >
             Download Broucher
           </a>
           <a
             href="/courses"
-            className="text-center px-8 py-2 font-bold  rounded-full bg-gradient-to-b border-2 border-blue-600 hover:bg-none from-blue-400 to-blue-400 dark:to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition-colors duration-700"
+            className="text-center md:px-4 px-4 py-2 font-bold  rounded-full bg-gradient-to-b border-2 border-blue-600 hover:bg-none from-blue-400 to-blue-400 dark:to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition-colors duration-700"
           >
             Explore Course
           </a>

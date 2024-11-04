@@ -76,7 +76,7 @@ const Footer = () => {
 
   return (
     <footer className="w-full dark:bg-black text-slate-50">
-      <div className="w-full flex flex-col lg:flex-row justify-between md:rounded-t-[76px] rounded-t-[30px] bg-[#334155] px-4 sm:px-20 py-10">
+      <div className="w-full flex flex-col lg:flex-row justify-between md:rounded-t-[76px] rounded-t-[30px] bg-[#09061d] px-4 sm:px-20 py-10">
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8">
           {/* Logo and Contact Section */}
           <div className="lg:col-span-4">
@@ -207,7 +207,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright Bar */}
-      <div className="border-t border-slate-200 bg-[#334155]">
+      <div className="border-t border-slate-200 bg-[#09061d]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="py-4 text-sm text-center">
             © {new Date().getFullYear()}.{" "}
