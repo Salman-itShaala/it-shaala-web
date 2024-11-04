@@ -10,7 +10,6 @@ import Testimonials from "./components/sections/testimonials";
 import WhyStudentsLoveItShaala from "./components/sections/why-students-love";
 import FAQ from "./components/sections/faq";
 
-
 export default function Home() {
   return (
     <>
@@ -19,8 +18,8 @@ export default function Home() {
       <CompaniesMovingCards />
       <Courses />
       <Testimonials />
-      <FAQ />
       <WhyStudentsLoveItShaala />
+      <FAQ />
     </>
   );
 }
