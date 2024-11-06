@@ -14,9 +14,7 @@ const Contact = () => {
                 </div> */}
             </div>
             <RequestCallBack />
-            <div className="">
-
-            </div>
+            
             <div className="w-full bg-white dark:bg-neutral-950 sm:px-20 px-2 py-28 pt-36">
                 <ContactForm />
             </div>

@@ -37,6 +37,7 @@ const Placements = () => {
             <div className="mt-16">
                 <Testimonials />
             </div>
+            
         </>
     )
 }
