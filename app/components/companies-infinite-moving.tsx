@@ -2,10 +2,18 @@
 import React, { useEffect, useRef } from 'react'
 import { InfiniteMovingCards } from './ui/infinite-moving-cards'
 import Lottie from 'lottie-web'
-import animation from "@/app/lottie-animaitons/lottie-animation-1.json"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight, faArrowRightArrowLeft, faLaptopCode, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import TextWithIcons from './icon-text';
+import infosysLogo from "@/app/images/infosys.png";
+import oracleLogo from "@/app/images/oracle.png";
+import capgeminiLogo from "@/app/images/capgemini.png";
+import zohoLogo from "@/app/images/zoho.png";
+import deloitteLogo from "@/app/images/deloitte.png";
+import accentureLogo from "@/app/images/accenture.png";
+import tcsLogo from "@/app/images/tcs.png";
+import genpactLogo from "@/app/images/genpact.png";
+import Image from 'next/image';
 
 const CompaniesMovingCards = () => {
     const animationContainer = useRef(null);
@@ -95,30 +103,38 @@ export default CompaniesMovingCards
 
 const imagesArray = [
     {
-        title: "Cognizant",
+        title: "",
+        image: <Image src={infosysLogo} alt='infosys logo' />
     },
     {
-        title: "Oracle",
+        title: "",
+        image: <Image src={oracleLogo} alt='Oracle logo' />
 
     },
     {
-        title: "Zoho",
+        title: "",
+        image: <Image src={zohoLogo} alt='Zoho logo' />
 
     },
     {
-        title: "Capgemini",
+        title: "",
+        image: <Image src={capgeminiLogo} alt='capgemini logo' />
     },
     {
-        title: "Deloitee"
+        title: "",
+        image: <Image src={deloitteLogo} alt='Deloitte logo' />
     },
     {
-        title: "Accenture"
+        title: "",
+        image: <Image src={accentureLogo} alt='Accenture Logo' />
     },
     {
-        title: "TCS"
+        title: "",
+        image: <Image src={tcsLogo} alt='TCS Logo' />
     },
     {
-        title: "Genpact"
+        title: "",
+        image: <Image src={genpactLogo} alt='Genpact Logo' />
     },
 
 
